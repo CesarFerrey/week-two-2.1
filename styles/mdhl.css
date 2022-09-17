@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+body {
+    max-width: 100vw; 
+    min-height: 100vh; 
+    font-family: 'Comic Neue', cursive;
+    justify-content:center;
+    margin: 100px;
+    align-self:flex-start;
+
+}
+header{
+    
+    background-position: center center;
+	background-image: url("../assets/design1_image2.jpg");
+	background-size: cover;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    height: 150px;
+    align-items: center;
+
+}
+h1{
+    text-align: left;
+    font-size: 400%;
+    position: absolute;
+    top: 0%;
+    left: 8%;
+}
+nav{
+    position: absolute;
+    top: -10%;
+    left: 70%;
+    font-size: 150%;
+}
+header nav a{
+    background-color: rgb(34, 237, 252);
+    box-shadow: 12 white;
+    color: white;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+}
+header nav .aselect{
+    background-color: rgb(130, 172, 14);
+    box-shadow: 12 white;
+    color: white;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+}
+ h2{
+    text-align:center;
+    background-color: white;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+}
+.logo{ 
+    display: inline-flex;
+    flex-wrap: wrap;
+    float: left;
+    width: 10%;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.container{
+    flex-direction:row;
+    float: right;
+    width: 80%;
+}
