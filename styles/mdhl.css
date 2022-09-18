@@ -35,7 +35,6 @@ nav{
 }
 header nav a{
     background-color: rgb(34, 237, 252);
-    box-shadow: 12 white;
     color: white;
     border-width:2px;
     border-style:solid;
@@ -43,7 +42,6 @@ header nav a{
 }
 header nav .aselect{
     background-color: rgb(130, 172, 14);
-    box-shadow: 12 white;
     color: white;
     border-width:2px;
     border-style:solid;
